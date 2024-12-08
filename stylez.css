@@ -1,0 +1,176 @@
+.bgtop {
+    background-image: url(/saas-project-assets/backgrounds/background-top.svg);
+    z-index: 1;
+}
+
+#sec1 {
+    display: flex;
+    z-index: 2;
+    margin-top: 0;
+}
+
+.hdlogo {
+    flex:1 1 50%;
+    display: flex;
+    align-items: center;
+}
+
+.hdlogo img {
+    width: 60%;
+    height: 60%;
+}
+
+.navbar {
+    flex: 1 1 35%;
+    align-content: center;
+}
+
+.navbar a {
+    margin: 0 2%;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+
+.navbar a:hover {
+    color:rgb(114, 114, 244) ;
+}
+
+.btn1 {
+    flex: 1 1 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buybtn {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color:rgb(114, 114, 244);
+    width: 75%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buybtn a {
+    text-decoration: none;
+    color: white;   
+}
+
+#sec2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: 
+    "sec2txt sec2txt sec2txt . sec2img sec2img sec2img sec2img";
+    margin:0 3%;
+    z-index: 2;
+    padding-bottom: 10%;
+}
+
+.sec2txt {
+    grid-area: sec2txt;
+    margin-top: 8%;
+}
+
+.sec2txt h2 {
+    font-size:35px;
+    font-weight: 500;
+    letter-spacing: 2.5;
+    margin-bottom: 0;
+}
+
+.sec2txt p {
+    margin-bottom: 8%;
+    color: rgb(119, 119, 119);
+}
+.btn2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color:rgb(114, 114, 244);
+    width: 30%;
+    height: 20%;
+}
+
+.btn2 a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.lrn a {
+    margin: 0 5%;
+    text-decoration: none;
+    color:rgb(114, 114, 244);
+}
+
+.sec2txt > a {
+    display: inline-block;
+}
+
+.sec2img {
+    grid-area: sec2img;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sec2img1,.sec2img2,.sec2img3,.sec2img4 {
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.sec2img1 img:first-of-type {
+    width: 25%;
+    height: 20%;
+    position: absolute;
+    top: 5%;
+    right: 35%;
+} 
+
+.sec2img1 img:nth-of-type(2) {
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+}
+
+.sec2img2 img:first-of-type {
+    width: 45%;
+    height: 25%;
+    position: absolute;
+    top: 7%;
+} 
+
+.sec2img2 img:nth-of-type(2) {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    bottom: -5%;
+
+}
+
+.sec2img3 img:first-of-type {
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    bottom: 30%;
+} 
+
+.sec2img4 img:first-of-type {
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    top: 5%;
+} 
+
+.sec2img4 img:nth-of-type(2) {
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    bottom: 3%;
+}
+
