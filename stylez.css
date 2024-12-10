@@ -174,3 +174,88 @@
     bottom: 3%;
 }
 
+.sec3cardz img {
+    width: 20%;
+    height: 20%;
+}
+
+.sec3hd {
+    text-align: center;
+    margin: 10% 0 5% 0;
+}
+
+.sec3hd p {
+    color: rgb(119, 119, 119);
+}
+.sec3cardz {
+    display: flex;
+    margin: 8% 0 5% 0;
+}
+
+.sec3cardz > div {
+    box-shadow: -5px 0 rgba(211, 211, 211, .3), 5px 0 rgba(211, 211, 211, .3), 0 8px rgba(211, 211, 211, .3);
+    margin: 0 1%;
+    padding: 3% 2%;
+}
+
+.sec3cardz p {
+    color: rgb(119, 119, 119);
+}
+.sec3cardz a {
+    text-decoration: none;
+    color: rgb(114, 114, 244);
+}
+
+.sec3card3 h3 {
+    display: inline-block;
+}
+.sec3card3 span {
+    background-color: rgb(13, 221, 221);
+    padding: 1% 5%;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+#sk {
+    text-decoration: none;
+    color: white;
+}
+
+#sec4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(127, 255, 212, .05);
+    padding-top: 10%;
+}
+
+.sec4-1 {
+    margin: 7% 0 0 5%;
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.sec4-1 h2 {
+    font-weight:500;
+    margin-bottom: 8%;
+}
+
+.sec4-1 span {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color:rgb(114, 114, 244);
+    padding: 2% 4%;
+}
+
+.sec4-1 a {
+    text-decoration: none;
+    color:white;
+}
+
+.sec4-2 {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content:right;
+}
+.sec4-2 img {
+    width: 90%;    
+}
