@@ -382,6 +382,10 @@
     width: 10%;
 }
 
+#sec9 {
+    padding-bottom: 12%;
+}
+
 .sec9hd {
     text-align: center;
     margin: 8% 0;
@@ -582,5 +586,144 @@ form {
     border-radius: 25px;
     color: white;
     border: 1px solid transparent;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.ft1card1 img {
+    width: 45%;
+    margin: 2% 0;
+}
+
+.ft1card1 div:first-of-type {
+    color: rgb(119, 119, 119);
+    font-size: medium;
+}
+
+.ft1card1 div:nth-of-type(2) {
+    color: rgb(114, 114, 244);
+}
+
+.ft1card1 div {
+    margin: 2% 0;
+}
+
+.ft1card1 span {
+    margin-right: 2%;
+}
+
+.ft1card2  a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+ 
+.ft1card2 div {
+    margin-bottom: 4%;
+}
+
+.ft1card2 div:nth-of-type(2) {
+    position: relative;
+}
+
+.ft1card2 span {
+    background-color: rgb(114, 114, 244);
+    margin-left: 1%;
+    padding: 1% 5%;
+    position: absolute;
+    right: -36%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+#hiring {
+    color: white;
+    font-size: x-small;
+}
+
+.ft1card3  a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+ 
+.ft1card3 div {
+    margin-bottom: 4%;
+}
+
+.ft1card4  a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+ 
+.ft1card4 div {
+    margin-bottom: 4%;
+}
+
+.ft1card5  a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+ 
+.ft1card5 div {
+    margin-bottom: 4%;
+}
+
+.ft1card5 span {
+    margin-right: 2%;
+}
+
+.ft2-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 3%;
+}
+
+.ft2-1a {
+    flex: 1 1 30%;
+}
+
+.ft2-1b {
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: right;
+}
+.ft2-1a a {
+    text-decoration:none;
+    color: rgb(119, 119, 119);
+}
+
+#blulnk {
+    color: rgb(114, 114, 244);
+}
+
+.ft2-1b a {
+    padding: 0 3%;
+}
+
+.ft2-1b img {
+    width:15%;
+}
+.ft2-1b select {
+    display: inline-block;
+}
+
+.ft2-2 {
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-size: large;
+}
+
+.ft2-2 span {
+    margin-right: .5%;
+}
+
+.ft2-3 {
+    margin: 5% 0;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-size: large;
 }
 
