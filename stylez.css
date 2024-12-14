@@ -23,15 +23,16 @@
 .navbar {
     flex: 1 1 35%;
     align-content: center;
+    position: relative;
 }
 
-.navbar a {
+#mylinks a {
     margin: 0 2%;
     text-decoration: none;
     color: rgb(119, 119, 119);
 }
 
-.navbar a:hover {
+#mylinks a:hover {
     color:rgb(114, 114, 244) ;
 }
 
@@ -192,6 +193,10 @@
     margin: 8% 0 8% 0;
 }
 
+.sec3card1, .sec3card2, .sec3card3, .sec3card4 {
+    flex: 1 1 25%;
+}
+
 .sec3cardz > div {
     box-shadow: -5px 0 rgba(211, 211, 211, .3), 5px 0 rgba(211, 211, 211, .3), 0 8px rgba(211, 211, 211, .3);
     margin: 0 1%;
@@ -319,9 +324,10 @@
 .sec7-1 {
     flex: 1 1 45%;
     position: relative;
+    z-index: 1;
 }
 .sec7-1 img:first-of-type {
-    z-index: 1;
+    z-index: 2;
     width: 50%;
     position: absolute;
     bottom: -35%;
@@ -445,6 +451,7 @@
     color: rgb(119, 119, 119);
     margin: 4% 0 10% 0;
 }
+
 .sec9-2 {
     flex: 1 1 60%;
     display: grid;
@@ -496,7 +503,7 @@
     color: white;
 }
 
-.sec10-1 div:first-of-type {
+#char {
     margin-top: 10%;
     display: inline-block;
     color: rgb(149, 147, 147);
@@ -591,7 +598,7 @@ form {
 .foot1 {
     display: flex;
     justify-content: space-around;
-    margin-top: 8%;
+    margin: 8% 3% 0 3%;
 }
 
 .ft1card1 img {
@@ -614,6 +621,15 @@ form {
 
 .ft1card1 span {
     margin-right: 2%;
+}
+
+.ft1card1 {
+    flex: 1 1 30%;
+}
+.ft1cardz {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 70%;
 }
 
 .ft1card2  a {
@@ -675,6 +691,10 @@ form {
     margin-right: 2%;
 }
 
+.foot2 hr {
+    border-color: rgba(119, 119, 119, .15);
+    margin-top: 5%;
+}
 .ft2-1 {
     display: flex;
     justify-content: space-between;

@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/stylez.css">
+        <link rel="stylesheet" href="/responsive.css">
     </head>
     <body>
         
@@ -15,15 +16,19 @@
                 <div class="hdlogo">
                     <img src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
                 </div>
-                <div class="navbar">
-                    <nav>
+
+                <div class="topnav">
+                    
+                    <div id="mylinks">
                         <a href="">Home</a>
                         <a href="">Features</a>
                         <a href="">Learn</a>
                         <a href="">Pricing</a>
                         <a href="">Hire us</a>
-                    </nav>
+                    </div>
+
                 </div>
+                
                 <div class="btn1">
                     <div class="buybtn">
                         <a href="">Buy Now</a>
@@ -197,8 +202,8 @@
                 <div class="sec9cardz">
 
                     <div class="sec9-1">
-                        <div class="price"> <strong>$59</strong> /mo</div>
-                        <hr>
+                        <div class="price"> <strong>$59</strong> /mo <hr></div>
+                        
                         <p>Start your Front business now. 100% <br>guaranteed money back. No <br>questions asked.</p>
                         <span style="color: white;">&#9654;<a href="">Play Video</a></span>
                         <p>No credit card required.</p>
@@ -239,16 +244,23 @@
 
             <section id="sec10">
                 <div class="sec10-1">
-                    <h2>Hire Us</h2>
-                    <p>Whatever your goal <br> we will get you there</p>
-                    <hr>
-                    <p>"I love Front! I love the ease of use. I love the <br> fact that I have total creative freedom.."</p>
-                    <div><strong>Charlotte Moore</strong><br>Head of Commercials, Slack</div>
-                    <div class="sec10imgs">
+
+                    <div class="sec10-1a">
+                        <h2>Hire Us</h2>
+                        <p>Whatever your goal <br> we will get you there</p>
+                        <hr>
+                        <p>"I love Front! I love the ease of use. I love the <br> fact that I have total creative freedom.."</p>
+                    </div>
+
+                    <div class="sec10-1b">
+                        <div id="char"><strong>Charlotte Moore</strong><br>Head of Commercials, Slack</div>
+                        <div class="sec10imgs">
                         <img src="/saas-project-assets/people/woman_two.jpg" alt="">
                         <img src="/saas-project-assets/people/woman_one.jpg" alt="">
                         <img src="/saas-project-assets/people/man_one.jpg" alt="">
+                        </div>
                     </div>
+
                 </div>
 
                 <div class="sec10-2">
@@ -303,43 +315,49 @@
             <footer>
 
                 <div class="foot1">
+
                     <div class="ft1card1">
                         <img src="/saas-project-assets/project_logo/logo.svg" alt="">
                         <div><span>&#127968;</span> 122 Glendale Boulevard, Los Angeles</div>
                         <div><span>&#9990;</span>+1 879 974 3894</div>
                     </div>
 
-                    <div class="ft1card2">
-                        <h3>Company</h3>
-                        <div><a href="">About</a></div>
-                        <div><a href="">Career</a> <span><a id="hiring" href="">We're Hiring</a></span></div>
-                        <div><a href="">Blog</a></div>
-                        <div><a href="">Customers</a></div>
-                        <div><a href="">Hire Us</a></div>
+                    <div class="ft1cardz">
+                        
+                        <div class="ft1card2">
+                            <h3>Company</h3>
+                            <div><a href="">About</a></div>
+                            <div><a href="">Career</a> <span><a id="hiring" href="">We're Hiring</a></span></div>
+                            <div><a href="">Blog</a></div>
+                            <div><a href="">Customers</a></div>
+                            <div><a href="">Hire Us</a></div>
+                        </div>
+    
+                        <div class="ft1card3">
+                            <h3>Features</h3>
+                            <div><a href="">Press</a></div>
+                            <div><a href="">Release Notes</a></div>
+                            <div><a href="">Integrations</a></div>
+                            <div><a href="">Pricing</a></div>
+                        </div>
+    
+                        <div class="ft1card4">
+                            <h3>Documentation</h3>
+                            <div><a href="">Support</a></div>
+                            <div><a href="">Docs</a></div>
+                            <div><a href="">Status</a></div>
+                            <div><a href="">API Reference</a></div>
+                            <div><a href="">Tech Requirements</a></div>
+                        </div>
+    
+                        <div class="ft1card5">
+                            <h3>Resources</h3>
+                            <div><a href=""><span>&#128712;</span>Help</a></div>
+                            <div><a href=""><span>&#128100;</span>Account</a></div>
+                        </div>
+
                     </div>
 
-                    <div class="ft1card3">
-                        <h3>Features</h3>
-                        <div><a href="">Press</a></div>
-                        <div><a href="">Release Notes</a></div>
-                        <div><a href="">Integrations</a></div>
-                        <div><a href="">Pricing</a></div>
-                    </div>
-
-                    <div class="ft1card4">
-                        <h3>Documentation</h3>
-                        <div><a href="">Support</a></div>
-                        <div><a href="">Docs</a></div>
-                        <div><a href="">Status</a></div>
-                        <div><a href="">API Reference</a></div>
-                        <div><a href="">Tech Requirements</a></div>
-                    </div>
-
-                    <div class="ft1card5">
-                        <h3>Resources</h3>
-                        <div><a href=""><span>&#128712;</span>Help</a></div>
-                        <div><a href=""><span>&#128100;</span>Account</a></div>
-                    </div>
                 </div>
 
                 <div class="foot2">
@@ -386,26 +404,17 @@
 
                 </div>
 
-
-
             </footer>
 
-
+            <script>
+                function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
+                }
+            </script>
     </body>
 </html>
-
-<script>
-    import { getUnicodeFlagIcon } from 'country-flag-icons/unicode';
-
-function getFlag(countryCode) {
-  if (countryCode.toUpperCase() === 'US') {
-    return getUnicodeFlagIcon('US');
-  } else {
-    return ''; // Return an empty string or a default value if not 'US'
-  }
-}
-
-console.log(getFlag('US')); // Outputs: 🇺🇸 
-console.log(getFlag('us')); // Outputs: 🇺🇸
-console.log(getFlag('CA')); // Outputs:  (empty string)
-</script>

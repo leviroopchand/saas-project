@@ -1,0 +1,372 @@
+@media all and (min-width:1024px) 
+    /* general laptop */
+    {
+    
+    }
+
+@media screen and (max-width:1023px) and (min-width:768px) 
+/* general tablet */
+{
+    .sec3cardz {
+        flex-wrap: wrap;
+    }
+
+    .sec3card1, .sec3card2, .sec3card3, .sec3card4 {
+        flex: 1 1 35%;
+    }
+
+    #sec4 {
+        flex-wrap: wrap;
+    }
+
+    .sec4-1 {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .sec4-2 img {
+        width: 100%;    
+    }
+
+    .sec5cardz div {
+        text-align: center;
+        padding: 1% 5% 0 5%;
+        border: 1px solid rgb(119, 119, 119);
+    }
+
+    #sec6 {
+        margin-bottom: 10%;
+    }
+
+    #sec7 {
+        flex-wrap: wrap;
+    }
+
+    #sec7 div:first-of-type {
+        margin: 10% 27% 2% 18%;
+    }
+
+    .sec7-1 {
+        flex: 1 1 60%;
+        max-height: 31rem;
+        min-height: 28.125rem;
+        text-align: center;
+    }
+
+    .sec7-1 img:first-of-type {
+        width: 40%;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+    
+    .sec7-1 img:nth-of-type(2) {
+        width: 85%;
+        text-align: center;
+    }
+
+    #sec7 div:nth-of-type(2) {
+        margin: 0 5% 0 5%;
+    }
+    .sec7-2 {
+        flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec7-2 p {
+        margin-bottom: 5%;
+    }
+    
+    .sec9cardz {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .sec9-1 {
+        flex: 1 1 100%;
+        margin: 0 10%;
+        padding:0 5%;
+        box-shadow: -5px 0 rgba(211, 211, 211, .3), 5px 0 rgba(211, 211, 211, .3), 0 8px rgba(211, 211, 211, .3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price {
+        width: 95%;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .price strong {
+        font-size: 75px;
+    }
+
+    .sec9-1 p:first-of-type {
+        color: rgb(119, 119, 119);
+        margin: 10% 0 15% 0;
+        font-size: larger;
+        width: 95%;
+        text-align: center;
+    }
+
+    .sec9-1 {
+        margin-bottom: 10%;
+    }
+
+    .sec9-2 {
+        gap: 5%;
+        margin: 0 10%;
+    }
+
+    #sec10 {
+        flex-wrap: wrap;
+        padding: 0 5%;
+    }
+
+    .sec10-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .sec10-1b {
+        text-align: center;
+    }
+
+    .sec10imgs {
+        justify-content: center;
+    }
+
+    .sec10imgs img {
+        border-radius: 50%;
+        width: 20%;
+        height: 60%;
+        margin-right:5% ;
+    }
+
+    .sec10imgs img:nth-of-type(3) {
+        width: 30%;
+    }
+
+    .ft1cardz {
+        flex-wrap: wrap;
+    }
+
+    .ft1cardz > div {
+        flex: 1 1 50%;
+        text-align: center;
+    }
+
+    .ft1card2 span {
+        right: 7%;
+        bottom: .1%;
+    }
+
+}
+
+@media screen and (max-width:767px) and (min-width:360px) 
+/* general mobile */
+{
+    .sec3cardz {
+        flex-wrap: wrap;
+    }
+
+    .sec3card1, .sec3card2, .sec3card3, .sec3card4 {
+        flex: 1 1 50%;
+    }
+
+    .sec3cardz > div {
+        margin: 0 10%;
+    }
+
+    #sec4 {
+        flex-wrap: wrap;
+    }
+
+    .sec4-1 {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .sec4-2 img {
+        width: 100%;    
+    }
+
+    .sec5cardz {
+        flex-wrap: wrap;
+    }
+
+    .sec5cardz div {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        margin: 3% 0;
+    }
+
+    .sec5cardz img {
+        margin-right: 5%;
+    }
+
+    .sec5card2 {
+        padding-right: 2.5%;
+    }
+    .sec5card3 {
+        padding-left: 12%;
+    }
+    
+    #sec7 {
+        flex-wrap: wrap;
+    }
+
+    #sec7 div:first-of-type {
+        margin: 10% 27% 2% 18%;
+    }
+
+    .sec7-1 {
+        flex: 1 1 60%;
+        max-height: 28.125rem;
+        min-height: 18rem;
+        text-align: center;
+    }
+
+    .sec7-1 img:first-of-type {
+        width: 40%;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+    
+    .sec7-1 img:nth-of-type(2) {
+        width: 85%;
+        text-align: center;
+    }
+
+    #sec7 div:nth-of-type(2) {
+        margin: 0 5% 0 5%;
+    }
+    .sec7-2 {
+        flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec7-2 p {
+        margin-bottom: 5%;
+    }
+
+    .sec8imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec8imgs img {
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+    .sec9cardz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec9-1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .sec9-2 {
+        margin: 0 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec9-2 > div {
+        margin: 5% 0;
+    }
+
+    #sec10 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec10-1 {
+        text-align: center;
+    }
+
+    .sec10-1 hr {
+        margin:8% 0;
+    }
+
+    .sec10imgs {
+        justify-content: center;
+    }
+
+    .sec10imgs img {
+        width: 25%;
+    }
+
+    .sec10imgs img:nth-of-type(3) {
+        width: 35%;
+    }
+
+    .foot1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ft1card1 {
+        text-align: center;
+    }
+
+    .ft1cardz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ft2-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ft2-1 > div {
+        margin-bottom: 5%;
+    }
+
+
+    .ft2-1b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ft2-1b > span {
+        margin-bottom: 10%;
+    }
+
+}
