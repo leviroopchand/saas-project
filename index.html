@@ -17,23 +17,31 @@
                     <img src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
                 </div>
 
-                <div class="topnav">
-                    
-                    <div id="mylinks">
-                        <a href="">Home</a>
-                        <a href="">Features</a>
-                        <a href="">Learn</a>
-                        <a href="">Pricing</a>
-                        <a href="">Hire us</a>
+                <div id="topnav" class="navbar nav">
+        
+                    <button class="navbartoggler" aria-expanded="false" aria-controls="navbardrop">
+                    <span>&#9776;</span>
+                    </button>
+                               
+                   <div class="navlinks">
+                        <ul class="nvlist">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Learn</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Hire us</a></li>
+                        </ul>
+                        <div class="btn1">
+                            <div class="buybtn">
+                                <a href="">Buy Now</a>
+                            </div>
+                        </div>
                     </div>
+                   
+                    
 
                 </div>
                 
-                <div class="btn1">
-                    <div class="buybtn">
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
             </section>
     
             <section id="sec2">
@@ -407,14 +415,24 @@
             </footer>
 
             <script>
-                function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                x.style.display = "none";
-                } else {
-                x.style.display = "block";
-                }
-                }
+
+                    const nav = document.getElementById("topnav");
+                    window.onscroll = function ()
+                         {
+                        if (window.pageYOffset > 100) {nav.classList.add ("sticky");}
+                        else {nav.classList.remove ("sticky")}
+                        }
+
+
+
+                    const navButton = document.querySelector ('button[aria-expanded]');
+
+                    function toggleNav({target}) {
+                        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                        navButton.setAttribute ('aria-expanded', !expanded);
+                    }
+
+                        navButton.addEventListener('click', toggleNav);
             </script>
     </body>
 </html>
