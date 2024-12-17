@@ -8,63 +8,7 @@
 /* general tablet */
 {
 
-    [aria-controls="navbardrop"] {
-        display: block;
-        position: absolute;
-        top: 1%;
-        right: 2%;
-        outline: none;
-        background-color: transparent;
-        border: 1px solid transparent;
-    }
-
-    .nav span {
-        color: var(--white);
-        font-size: large;
-        pointer-events: none;
-        cursor: pointer;
-    }
-
-    [aria-expanded="false"] ~ .navlinks {
-        display: none;}
-        
-    [aria-expanded="true"] ~ .navlinks 
-    {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-        "nvlist nvlist nvlist nvlist nvlist"
-        " . . btn1 . . ";
-        margin: 5% 15% 50% 15%;
-    }
-
-    .nvlist {
-        grid-area: nvlist;
-    }
-
-    .btn1 {
-        grid-area: btn1;
-    }
     
-
-    .navlinks {
-            position: absolute;
-            right: 40%;
-            top: 75%; 
-            background-image: linear-gradient(to right, transparent, rgba(255,255,255,.7));
-            width: 100%;
-            text-align: center;
-            }
-    
-    .navlinks a {
-            display: block;
-            color: rgb(119, 119, 119);
-            }
-
-    .buybtn a {
-        color: white;
-    }
 
     #sec2 {
         display: flex;
@@ -256,60 +200,7 @@
 @media screen and (max-width:767px) and (min-width:360px) 
 /* general mobile */
 {
-    [aria-controls="navbardrop"] {
-        display: block;
-        position: absolute;
-        top: 1%;
-        right: 2%;
-        outline: none;
-        background-color: transparent;
-        border: 1px solid transparent;
-    }
-
-    .nav span {
-        color: var(--white);
-        font-size: large;
-        pointer-events: none;
-        cursor: pointer;
-    }
-
-    [aria-expanded="false"] ~ .navlinks {
-        display: none;}
-        
-    [aria-expanded="true"] ~ .navlinks 
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nvlist {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .btn1 {
-        grid-area: btn1;
-    }
     
-
-    .navlinks {
-            position: absolute;
-            right: 40%;
-            top: 75%; 
-            background-image: linear-gradient(to right, transparent, rgba(255,255,255,.7));
-            width: 100%;
-            text-align: center;
-            }
-    
-    .navlinks a {
-            display: block;
-            color: rgb(119, 119, 119);
-            }
-
-    .buybtn a {
-        color: white;
-    }
 
     #sec2 {
         display: flex;

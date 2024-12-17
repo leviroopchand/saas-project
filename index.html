@@ -17,30 +17,29 @@
                     <img src="/saas-project-assets/project_logo/logo.svg" alt="frontlogo">
                 </div>
 
-                <div id="topnav" class="navbar nav">
-        
-                    <button class="navbartoggler" aria-expanded="false" aria-controls="navbardrop">
-                    <span>&#9776;</span>
-                    </button>
-                               
-                   <div class="navlinks">
-                        <ul class="nvlist">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Learn</a></li>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Hire us</a></li>
-                        </ul>
-                        <div class="btn1">
-                            <div class="buybtn">
-                                <a href="">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    
+                <div class="container">
 
-                </div>
+                    <input id="toggle" type="checkbox">
+                
+                    
+                    <label class="toggle-container" for="toggle">
+                     
+                      <span class="button button-toggle"></span>
+                    </label>
+                
+                    <!-- The Nav Menu -->
+                    <nav class="nav">
+                      <a class="nav-item" href="">Home</a>
+                      <a class="nav-item" href="">Learn</a>
+                      <a class="nav-item" href="">Features</a>
+                      <a class="nav-item" href="">Price</a>
+                      <a class="nav-item" href="">Hire Us</a>
+                      <div class="btn1 nav-item">
+                        <div class="buybtn">
+                            <a href="">Buy Now</a>
+                        </div>
+                      </div>
+                    </nav>
                 
             </section>
     
@@ -414,25 +413,6 @@
 
             </footer>
 
-            <script>
-
-                    const nav = document.getElementById("topnav");
-                    window.onscroll = function ()
-                         {
-                        if (window.pageYOffset > 100) {nav.classList.add ("sticky");}
-                        else {nav.classList.remove ("sticky")}
-                        }
-
-
-
-                    const navButton = document.querySelector ('button[aria-expanded]');
-
-                    function toggleNav({target}) {
-                        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
-                        navButton.setAttribute ('aria-expanded', !expanded);
-                    }
-
-                        navButton.addEventListener('click', toggleNav);
-            </script>
+    
     </body>
 </html>
